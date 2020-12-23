@@ -1,0 +1,312 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Taj PM | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="grid.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Include Handlebars from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+  <body class="dark">
+    <div id="nav_bar"> 
+      <a class="logo" rel="index" href="#"> 
+        <img src="me.jpeg" alt="Vishal Taj PM"> 
+      </a>
+      <nav class="en show menu"> 
+        <a rel="index" href="/" class="home-link active" data-target="home-container"><i class="fa fa-home"></i></a>
+        <a rel="about" href="#" class="" data-target="about-container"><i class="fa fa-user"></i></a>
+        <a rel="skills" href="/skills/" class=""><i class="fa fa-gear"></i></a>
+        <a rel="gallery" href="/portfolio/" class=""><i class="fa fa-eye"></i></a>
+        <a rel="contact" href="/contact/" class=""><i class="fa fa-envelope"></i></a>
+      </nav>
+      <ul>
+
+      </ul>
+      <a id="mobile-link" href=""><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="smooth container-fluid">
+      <div id="home-container" class="section active">
+        <!-- <header id="header"></header> -->
+        <div id="about-me" class="grid_5">
+          <h1 class="rubberband">Hi,</h1>
+          <h1 class="rubberband">I'm <span>Vishal</span>,</h1>
+          <p>Full Stack Engineer.</p>
+        </div>
+        <div class="terminal-container grid_7">
+          <nav id="menu"></nav>
+          <div class="terminal-window">
+            <output></output>
+            <div id="input-line" class="input-line">
+              <div class="prompt"></div><div><input class="cmdline" autofocus /></div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- The overlay -->
+        <div id="views" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content"></div>
+        </div>
+      </div>
+      <div id="about-container" class="section container">
+        <div class="grid_6">
+          <h1>About</h1>
+          <p>A passionate programmer who always love to code. Keen to learn new things and I believe coding as a supernatural power.
+
+            Being a web developer, I always tries to write better optimal and reusable code which helps in both commercial perspective also , my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company.</p>
+        </div>
+        <div class="grid_6">
+
+          <div id="myCanvasContainer">
+            <canvas width="300" height="300" id="myCanvas">
+              <p>Anything in here will be replaced on browsers that support the canvas element</p>
+            </canvas>
+          </div>
+          <div id="tags"  style="font-size: 50%">
+            <a href="#">Rails</a>
+            <a href="#">Ruby</a>
+            <a href="#">Python</a>
+            <a href="#">Javascript</a>
+            <a href="#">Express</a>
+            <a href="#">PHP</a>
+            <a href="#">Wordpress</a>
+            <a href="#">Django</a>
+            <a href="#">Postgres</a>
+            <a href="#">MySQL</a>
+            <a href="#">MongoDB</a>
+            <a href="#">Redis</a>
+            <a href="#">Elastic Search</a>
+            <a href="#">Nginx</a>
+            <a href="#">Drone CI</a>
+            <a href="#">React</a>
+            <a href="#">Aws</a>
+            <a href="#">GIT</a>
+            <a href="#">GCP</a>
+          </div>
+        </div>
+      </div>
+      <div id="skills-container" class="section container">
+        <div class="grid_12">
+          <h1>Skills</h1>
+          <ul class="skill-set">
+            <li>
+              <strong>Git</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Rails</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Ruby</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Python</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <strong>Django</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Node</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>React</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Wordpress</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Javascript</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <strong>MySQL</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Postgres</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>MongoDB</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Firebase</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>AWS</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Google Cloud Platform</strong> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Nginx</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+            <li>
+              <strong>Vagrant</strong>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="profiles">
+      <ul>
+        <li>
+          <a aria-label="Email Vishal" href="mailto:vishal@qoodo.co" data-position="top" data-tooltip="Email Vishal" class="btn-floating btn-large waves-effect waves-light tooltipped"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li>
+          <a aria-label="View Vishal on GitHub" href="https://github.com/VishalTaj" target="_blank" data-position="top" data-tooltip="View Vishal on GitHub" class="btn-floating btn-large waves-effect waves-light tooltipped"><i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a aria-label="View Vishal on LinkedIn" href="https://www.linkedin.com/in/vishaltajpm/" target="_blank" data-position="top" data-tooltip="View Vishal on LinkedIn" class="btn-floating btn-large waves-effect waves-light tooltipped"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a aria-label="View Vishal on Stack Overflow" href="https://stackoverflow.com/users/3422357/vishal-taj-pm" target="_blank" data-position="top" data-tooltip="View Vishal on Stack Overflow" class="btn-floating btn-large waves-effect waves-light tooltipped"><i class="fa fa-stack-overflow"></i></a>
+        </li>
+      </ul>
+    </div>
+    
+    <!--<script src="http://www.codehelper.io/api/ips/?js"></script>-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="app.js"></script>
+    <script src="terminal.js"></script>
+    
+  </body>
+</html>
+<script src="tagCanvas.min.js"></script>
+<script>
+  $(function() {
+  
+    // Set the command-line prompt to include the user's IP Address
+    if ($(window).width() <= 480) {
+      $('.prompt').html('[vis@wks] # ');
+    } else {
+      $('.prompt').html('[vishal@workspace] # ');
+    }
+
+    // Initialize a new terminal object
+    term = new Terminal('#input-line .cmdline', '.terminal-container output');
+    term.init();
+
+    document.querySelector('.cmdline').value = 'help';
+    term.enter(document.querySelector('.cmdline'));
+
+    // handlebar js
+    renderTemplate('header', '#header');
+    renderTemplate('menu', '#menu');
+
+    /* Open */
+  openNav =  function() {
+      document.getElementById("views").style.height = "100%";
+    }
+    
+    /* Close */
+  closeNav = function() {
+      document.getElementById("views").style.height = "0%";
+    }
+  //   if(!$('#myCanvas').tagcanvas({
+  // textColour: '#fff',
+  // outlineThickness:0.5,
+  // outlineColour:'#FE0853',
+  // maxSpeed:0.06,
+  // freezeActive:true,
+  // shuffleTags:true,
+  // shape:'sphere',
+  // zoom:0.9,
+  // noSelect:true,textFont:null,pinchZoom:true,freezeDecel:true,fadeIn:3000,initial:[0.3,-0.1],depth:1.4})){$('#myCanvasContainer').hide();}
+  });
+
+  if(!$('#myCanvas').tagcanvas({
+    //textColour: '#ff0000',
+    outlineColour:'#FE0853',
+    outlineThickness:0.5,
+    reverse: true,
+    depth: 0.8,
+    maxSpeed:0.1,
+    freezeActive:true,
+    textFont: null,
+    textColour: '#fff',
+    shape:'sphere',
+    shuffleTags:true,
+    zoom:0.9,
+    noSelect:true,textFont:null,pinchZoom:true,freezeDecel:true,fadeIn:3000
+  },'tags')) {
+    // something went wrong, hide the canvas container
+    $('#myCanvasContainer').hide();
+  }
+
+  $('.menu a').on('click', function(e) {
+    e.preventDefault();
+    $('.menu a.active').removeClass('active');
+    $section = $('#'+$(this).attr('data-target'));
+    $(this).addClass('active')
+    $('html, body').animate({
+      scrollTop: $section.offset().top
+    }, 2000);
+  })
+
+</script>
