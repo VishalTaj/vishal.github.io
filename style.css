@@ -129,7 +129,7 @@ body.light {
 .section {
   margin-left: 60px;
   width: calc(100vw - 80px);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   position: relative;
 }
@@ -419,6 +419,11 @@ body.light {
 
 .navbar .icon {
   display: none;
+}
+
+#skills-container legend {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .skill-set {
